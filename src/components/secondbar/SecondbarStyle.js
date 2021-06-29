@@ -50,7 +50,7 @@ export const SecondbarMenu= styled.div`
 
     @media screen and (max-width: 992px){
         position: fixed;
-        width: 250px;
+        width: 100%;
         height: 100vh;
         padding: 0 30px;
         left:${({showSidebar})=> showSidebar? "0": "-100%"};

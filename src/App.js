@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import DataContextProvider from "./components/context/CommingDataContext";
 import Footer from './components/footer/Footer';
@@ -15,6 +15,7 @@ import Technology from './pages/technology/Technology';
 
 
 function App() {
+  const sidebarRef = useRef()
   return (
     <BrowserRouter>
         <DataContextProvider>

@@ -38,7 +38,7 @@ const Secondbar = () => {
             <SecondbarMenu showSidebar={showSidebar}>
                 {
                     Categories.map(({title, path}, index)=>
-                        <SecondbarLink key={index} to={path}>
+                        <SecondbarLink key={index} to={path} onClick={()=>setShowSidebar(false)}>
                             {
                                 title
                             }

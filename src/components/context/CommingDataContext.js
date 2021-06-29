@@ -77,8 +77,6 @@ const DataContextProvider =  ({children}) => {
         })
         .catch(err=> dispatch({type: "FETCH_FAILURE_search", payload: err.message}))
     }
-    
-    console.log("storedstate:", storedstate);
    
 
     const handleClick = ()=>{
