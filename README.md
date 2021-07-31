@@ -27,6 +27,9 @@ Users are able to:
 - search for any term in an input field to see all news related to this term over the world.
 ### Links
 
+#### Note: 
+- this web app use the free version of news-API which doesn't allow using in live servers, so i made another version of this app with static news data in  order to make it works on the live server, so the search process in the live server doesn't work, but when clone the github code in local server, it will work in a perfect way.
+
 - Live Site URL: (https://alqiaty-news-live-version.netlify.app/)
 - Github repo URL: (https://github.com/mahmoud-alqiaty/E-commerce-Shop)
 
